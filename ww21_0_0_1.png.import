@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/ww21_0_0_1.png-c8caab5181743d16c903b7ebdcb1eec4.stex"
+path="res://.import/ww21_0_0_1.png-05d64422d8ad1e4190977ea79b016863.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Release/ww21_0_0_1.png"
-dest_files=[ "res://.import/ww21_0_0_1.png-c8caab5181743d16c903b7ebdcb1eec4.stex" ]
+source_file="res://release/ww21_0_0_1.png"
+dest_files=[ "res://.import/ww21_0_0_1.png-05d64422d8ad1e4190977ea79b016863.stex" ]
 
 [params]
 
