@@ -16,6 +16,9 @@ __meta__ = {
 anchor_right = 1.0
 anchor_bottom = 1.0
 texture = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Button" type="Button" parent="."]
 anchor_left = 1.0
@@ -32,6 +35,7 @@ custom_colors/font_color_hover = Color( 0.364706, 0.364706, 0.364706, 1 )
 text = "Back"
 flat = true
 __meta__ = {
+"_edit_use_anchors_": false,
 "_editor_description_": ""
 }
 [connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

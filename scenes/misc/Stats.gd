@@ -51,4 +51,7 @@ func _notification(what):
 		
 func quit_game():
 	Globals.save_game()
+	#get_tree().change_scene("res://scenes/levels/Menu.tscn")
 	get_tree().quit()
+
+

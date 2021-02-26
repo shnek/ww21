@@ -298,7 +298,7 @@ anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
 margin_left = -300.0
-margin_top = -191.0
+margin_top = 191.0
 margin_right = 300.0
 margin_bottom = 191.0
 texture = ExtResource( 1 )
@@ -313,10 +313,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -300.0
-margin_top = -191.0
-margin_right = 300.0
-margin_bottom = 191.0
+margin_left = -8.0
+margin_top = 433.0
+margin_right = 8.0
+margin_bottom = 815.0
 texture = ExtResource( 2 )
 expand = true
 
@@ -326,10 +326,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -300.0
-margin_top = -191.0
-margin_right = 300.0
-margin_bottom = 191.0
+margin_left = -326.333
+margin_top = -600.401
+margin_right = 326.334
+margin_bottom = -184.734
 texture = ExtResource( 3 )
 expand = true
 __meta__ = {
@@ -345,10 +345,10 @@ anims/Intro = SubResource( 1 )
 script = SubResource( 2 )
 
 [node name="JG-logo" type="TextureRect" parent="."]
-margin_left = 40.0
-margin_top = 192.0
-margin_right = 989.0
-margin_bottom = 400.0
+margin_left = 448.0
+margin_top = 832.0
+margin_right = 576.0
+margin_bottom = 1064.0
 texture = ExtResource( 5 )
 expand = true
 stretch_mode = 1
@@ -357,10 +357,10 @@ __meta__ = {
 }
 
 [node name="JG-Jahnel" type="TextureRect" parent="."]
-margin_left = 40.0
-margin_top = 192.0
-margin_right = 989.0
-margin_bottom = 400.0
+margin_left = 32.0
+margin_top = -288.0
+margin_right = 968.0
+margin_bottom = -48.0
 texture = ExtResource( 7 )
 expand = true
 __meta__ = {
@@ -368,10 +368,10 @@ __meta__ = {
 }
 
 [node name="JG-Group" type="TextureRect" parent="."]
-margin_left = 40.0
-margin_top = 192.0
+margin_left = 56.0
+margin_top = 528.0
 margin_right = 989.0
-margin_bottom = 400.0
+margin_bottom = 528.0
 texture = ExtResource( 6 )
 expand = true
 [connection signal="animation_finished" from="anims" to="anims" method="_on_anims_animation_finished"]
